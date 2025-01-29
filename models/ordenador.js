@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://camosama:CYfcOiYR8vamuyhi@cluster0.qpb4q.mongodb.net/almacen')
+mongoose.connect('mongodb+srv://borja:CYfcOiYR8vamuyhi@cluster0.qpb4q.mongodb.net/almacen')
   .then(() => console.log('Connected!'));
 
 const ordenadorSchema = new mongoose.Schema({
